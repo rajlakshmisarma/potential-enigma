@@ -26,7 +26,7 @@ public class ABTesting {
 		element = driver.findElement(By.tagName("p"));
 		String text = element.getText().toString();
 		System.out.println("Text present for A/B Testing description: ");
-		System.out.println(text);	//print to console	
+		System.out.println(text);	//printing to console	
 	}
 	@AfterClass
 	public void end()
