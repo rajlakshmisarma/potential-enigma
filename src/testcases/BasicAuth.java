@@ -23,7 +23,6 @@ import main.HomePage;
 	public void basicAuthlink() //click on link - Basic Auth -  and login, verify logged-in text
 	{
 		element = driver.findElement(By.linkText("Basic Auth"));
-		//element.click();
 		driver.get("http://admin:admin@the-internet.herokuapp.com/basic_auth");
 		System.out.println("Basic Authentication: " + driver.findElement(By.tagName("p")).getText().toString());
 	}
