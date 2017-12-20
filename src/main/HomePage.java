@@ -15,7 +15,7 @@ public class HomePage {
 	{
 		this.driver = driver;
 	}
-	public String getURL()
+	public String getURL() //getter method for base url
 	{
 		return baseURL;
 	}
