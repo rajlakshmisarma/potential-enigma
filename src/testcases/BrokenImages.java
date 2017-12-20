@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import main.HomePage;
 
 public class BrokenImages {
@@ -31,7 +30,8 @@ public class BrokenImages {
 		System.out.println("The images present on the page are:  ");
 		for(WebElement img : images)
 		{
-			boolean ispresent = (boolean) ((JavascriptExecutor)driver) .executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", img);
+			boolean ispresent = (boolean) ((JavascriptExecutor)driver) 
+				.executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", img);
 			if(ispresent==false)
 			{
 				System.out.println("Image --" + img.getAttribute("src").toString() +  "  -->  is broken");
