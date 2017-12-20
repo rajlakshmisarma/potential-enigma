@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12031" started-at="2017-12-20T10:05:03Z" finished-at="2017-12-20T10:05:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12031" started-at="2017-12-20T10:05:03Z" finished-at="2017-12-20T10:05:15Z">
+      <class name="testcases.ExitIntent">
+        <test-method status="PASS" signature="start()[pri:0, instance:testcases.ExitIntent@1e965684]" name="start" is-config="true" duration-ms="8823" started-at="2017-12-20T15:35:03Z" finished-at="2017-12-20T15:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="exitIntent()[pri:0, instance:testcases.ExitIntent@1e965684]" name="exitIntent" duration-ms="3175" started-at="2017-12-20T15:35:12Z" finished-at="2017-12-20T15:35:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitIntent -->
+      </class> <!-- testcases.ExitIntent -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
