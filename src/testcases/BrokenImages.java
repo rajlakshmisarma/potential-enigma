@@ -40,7 +40,7 @@ public class BrokenImages {
 				System.out.println("Image --" + img.getAttribute("src").toString() + "  -->  is properly displayed image");
 			}
 		}
-}
+	}
 	@AfterClass
 	public void end()
 	{
