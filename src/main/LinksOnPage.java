@@ -24,8 +24,7 @@ public class LinksOnPage {
 			}
 		}
 		return links;
-	}
-	
+	}	
 	public static String linkstatus(URL url) throws IOException //method to check if the links in the page are responsive or not
 	{
 		HttpURLConnection http = (HttpURLConnection) url.openConnection();
