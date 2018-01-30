@@ -39,7 +39,6 @@ public class HomePage {
 	{
 		driver.navigate().back();
 	}
-
 	public void teardown()
 	{
 		driver.quit();

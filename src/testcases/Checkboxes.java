@@ -27,7 +27,7 @@ public class Checkboxes {
 	element.click();
 	List<WebElement> element = driver.findElements(By.xpath("//input[@type = 'checkbox']"));
 	System.out.println("Number of checkboxes present:  " + element.size());
-	System.out.println(driver.findElement(By.tagName("form")).getText()); //print checkbox name on console
+	System.out.println(driver.findElement(By.tagName("form")).getText()); //printing checkbox name on console
 	for(WebElement e : element)
 	{
 		System.out.println(e.getText() + e.isSelected());
